@@ -5,11 +5,9 @@ Web scraping(bookstore) project
 use web scraping to scrap the html file data from the bookstore website. 
 Website: http://search.books.com.tw/search/query/key/python/cat/all
 
-*** Target ***
 Try to create a detailed csv dataset including author,price,publisher,table of content...from the website.
 The csv file would include top 20 books' content with when searching "Python" on this bookstore website.
 
-*** Step ***
 Below are the steps of this pytharm file:
 1. scrap the html local file and store the file as bookstore.html. 
 2. Open the html file, then use lxml tree to extract the title of these books first. 
